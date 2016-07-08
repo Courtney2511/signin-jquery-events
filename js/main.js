@@ -6,6 +6,8 @@ $(document).ready(function(){
   $('.close').on('click', function(){
     $('.modal').fadeOut();
   });
-
+  $('.submit').on('click', function(){
+    $('input').addClass('error');
+  });
 
 });
