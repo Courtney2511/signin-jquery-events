@@ -9,5 +9,8 @@ $(document).ready(function(){
   $('.submit').on('click', function(){
     $('input').addClass('error');
   });
+  $('input').hover(function(){
+    $('input').removeClass('error');
+  });
 
 });
